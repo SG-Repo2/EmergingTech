@@ -1,7 +1,7 @@
 import fitz  # PyMuPDF
 import os
 
-pdf_path = "PDFs/sample.pdf"
+pdf_path = "PDFs/ALN_Elon_Musks_Monopoly.pdf"
 cache_dir = "cache/"
 os.makedirs(cache_dir, exist_ok=True)
 

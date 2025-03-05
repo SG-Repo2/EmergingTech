@@ -115,7 +115,7 @@ def analyze_newsletter(pdf_path):
 
 # Example usage
 if __name__ == "__main__":
-    results = analyze_newsletter("PDFs/sample.pdf")
+    results = analyze_newsletter("PDFs/ALN_Elon_Musks_Monopoly.pdf")
     
     # Print top organizations mentioned
     print("Top Organizations Mentioned:")
