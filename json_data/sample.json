@@ -1622,31 +1622,31 @@
       {
         "name": "Other Tech Sectors",
         "entities": {
-          "companies": [
-            {
-              "name": "Neuralink Corp.",
-              "description": "Neurotechnology company co-founded by Musk, developing implantable brain-machine interfaces. Aims to help patients with paralysis and eventually human-AI symbiosis.",
-              "people": ["Elon Musk", "Max Hodak (co-founder, left 2021)", "Vijay Kumar (Neuralink Chip Lead)"],
-              "products": ["Neuralink N1 implant (coin-sized brain chip)", "Surgical robot (R1) to implant device"],
-              "technologies": ["Brain-computer interface (BCI)", "Neural signal processing AI"],
-              "locations": ["Fremont, California, USA"],
-              "metrics": {
-                "trials": "Received FDA approval for first human trial in May 2023 (progress not publicly reported yet) [oai_citation_attribution:219‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=New,devices%20that%20interpret%20brain%20signals)",
-                "implant_channels": "1024 electrode channels per implant (targeting high bandwidth)"
-              }
-            },
-            {
-              "name": "Synchron, Inc.",
-              "description": "BCI company and key Neuralink competitor with a less invasive neural implant (Stentrode) delivered via blood vessels. Ahead in clinical trials for assistive technology [oai_citation_attribution:220‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=New,devices%20that%20interpret%20brain%20signals).",
-              "people": ["Thomas Oxley (CEO)"],
-              "products": ["Synchron Switch (BCI system with endovascular Stentrode)"],
-              "technologies": ["Endovascular brain implant (no open brain surgery)", "Neural signal decoding for text/PC control"],
-              "locations": ["Brooklyn, New York, USA"],
-              "metrics": {
-                "clinical_progress": "Implanted in 6 patients (US & Australia) by 2023 with no serious adverse events [oai_citation_attribution:221‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=Synchron%20received%20U,effects%2C%20the%20company%20has%20reported)",
-                "FDA_status": "Received Breakthrough Device designation; launching larger trial in 2024 [oai_citation_attribution:222‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=WASHINGTON%2C%20April%208%20%28Reuters%29%20,company%27s%20chief%20executive%20told%20Reuters)"
-              }
-            },
+            "companies": [
+              {
+                "name": "Neuralink Corp.",
+                "description": "Neurotechnology company co-founded by Musk, developing implantable brain-machine interfaces. Aims to help patients with paralysis and eventually human-AI symbiosis.",
+                "people": ["Elon Musk", "Max Hodak (co-founder, left 2021)", "Vijay Kumar (Neuralink Chip Lead)"],
+                "products": ["Neuralink N1 implant (coin-sized brain chip)", "Surgical robot (R1) to implant device"],
+                "technologies": ["Brain-computer interface (BCI)", "Neural signal processing AI"],
+                "locations": ["Fremont, California, USA"],
+                "metrics": {
+                  "trials": "Received FDA approval for first human trial in May 2023 (progress not publicly reported yet) [oai_citation_attribution:219‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=New,devices%20that%20interpret%20brain%20signals)",
+                  "implant_channels": "1024 electrode channels per implant (targeting high bandwidth)"
+                }
+              },
+              {
+                "name": "Synchron, Inc.",
+                "description": "BCI company and key Neuralink competitor with a less invasive neural implant (Stentrode) delivered via blood vessels. Ahead in clinical trials for assistive technology [oai_citation_attribution:220‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=New,devices%20that%20interpret%20brain%20signals).",
+                "people": ["Thomas Oxley (CEO)"],
+                "products": ["Synchron Switch (BCI system with endovascular Stentrode)"],
+                "technologies": ["Endovascular brain implant (no open brain surgery)", "Neural signal decoding for text/PC control"],
+                "locations": ["Brooklyn, New York, USA"],
+                "metrics": {
+                  "clinical_progress": "Implanted in 6 patients (US & Australia) by 2023 with no serious adverse events [oai_citation_attribution:221‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=Synchron%20received%20U,effects%2C%20the%20company%20has%20reported)",
+                  "FDA_status": "Received Breakthrough Device designation; launching larger trial in 2024 [oai_citation_attribution:222‡reuters.com](https://www.reuters.com/business/healthcare-pharmaceuticals/synchron-rival-musks-neuralink-readies-large-scale-brain-implant-trial-2024-04-08/#:~:text=WASHINGTON%2C%20April%208%20%28Reuters%29%20,company%27s%20chief%20executive%20told%20Reuters)"
+                }
+              },
             {
               "name": "The Boring Company",
               "description": "Infrastructure and tunneling startup founded by Musk (2016). Aims to reduce tunnel boring costs and build transportation tunnels (Loop system for Teslas initially).",
