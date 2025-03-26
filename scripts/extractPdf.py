@@ -27,3 +27,36 @@ else:
     with open(text_cache_path, 'w', encoding='utf-8') as f:
         f.write(text)
     print(f"Extracted text from {pdf_name} and saved to cache.")
+
+# Create a subfolder for the images
+images_dir = os.path.join(cache_dir, f"{os.path.splitext(pdf_name)[0]}_images")
+os.makedirs(images_dir, exist_ok=True)
+
+# Extract images from PDF
+doc = fitz.open(pdf_path)
+image_count = 0
+for page_num, page in enumerate(doc):
+    # Get image list
+    image_list = page.get_images()
+    
+    # No images found on this page
+    if not image_list:
+        continue
+    
+    for img_index, img in enumerate(image_list):
+        xref = img[0]  # image reference
+        base_image = doc.extract_image(xref)
+        image_bytes = base_image["image"]
+        image_ext = base_image["ext"]  # image extension
+        
+        # Create image filename: page{page_num}_img{img_index}.{image_ext}
+        image_filename = f"page{page_num+1}_img{img_index+1}.{image_ext}"
+        image_path = os.path.join(images_dir, image_filename)
+        
+        # Save the image
+        with open(image_path, "wb") as img_file:
+            img_file.write(image_bytes)
+        
+        image_count += 1
+
+print(f"Extracted {image_count} images from {pdf_name} and saved to {images_dir}")
