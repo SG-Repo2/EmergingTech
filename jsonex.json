@@ -1,0 +1,25 @@
+{
+    "nodes": [
+      {
+        "name": "Meta",
+        "node_type": "Company",
+        "Entity_Type": "Public Company",
+        "Headquarters_Location": "Menlo Park, California, USA",
+        "Primary_Business_Model": "Social Media, AI Infrastructure",
+        "Notes": "Formerly Facebook Inc.; founding contributor to Open Compute Project"
+      },
+      {
+        "name": "Mark Zuckerberg",
+        "node_type": "Person",
+        "Notes": "Co-founder of Facebook (Meta)"
+      }
+    ],
+    "relationships": [
+      {
+        "start": "Mark Zuckerberg",
+        "end": "Meta",
+        "relationship_type": "Has_CoFounder",
+        "details": "Co-founded Facebook (Meta) in 2004"
+      }
+    ]
+  }

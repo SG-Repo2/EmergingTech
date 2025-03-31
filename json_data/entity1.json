@@ -1,0 +1,535 @@
+{
+    "nodes": [
+        {
+            "name": "Meta",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Menlo Park, California, USA", 
+            "Primary_Business_Model": "Social Media, AI Infrastructure",
+            "Notes": "Formerly Facebook Inc.; major hyperscale datacenter operator; founding contributor to Open Compute Project"
+        },
+        {
+            "name": "Google",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Mountain View, California, USA",
+            "Primary_Business_Model": "Search, Cloud Services, AI",
+            "Notes": "Part of Alphabet Inc.; known for high-density datacenter designs and early adoption of liquid cooling"
+        },
+        {
+            "name": "Microsoft",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Redmond, Washington, USA",
+            "Primary_Business_Model": "Software, Cloud (Azure), AI",
+            "Notes": "Hyperscale operator building massive AI-focused cloud infrastructure"
+        },
+        {
+            "name": "Amazon",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Seattle, Washington, USA",
+            "Primary_Business_Model": "E-commerce, Cloud (AWS), AI",
+            "Notes": "Hyperscale operator with large cloud computing footprint"
+        },
+        {
+            "name": "Nvidia",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Santa Clara, California, USA",
+            "Primary_Business_Model": "Semiconductors (GPUs), AI Computing",
+            "Notes": "Dominant AI GPU supplier; drives datacenter power/cooling requirements with new architectures (Blackwell, GB200)"
+        },
+        {
+            "name": "AMD",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Santa Clara, California, USA",
+            "Primary_Business_Model": "Semiconductors (CPUs, GPUs)",
+            "Notes": "Competes in AI accelerators (MI300) and general GPU/CPU markets"
+        },
+        {
+            "name": "Intel",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Santa Clara, California, USA",
+            "Primary_Business_Model": "Semiconductors (CPUs, accelerators)",
+            "Notes": "Major CPU supplier; also invests in AI accelerators"
+        },
+        {
+            "name": "Mellanox",
+            "node_type": "Company",
+            "Entity_Type": "Acquired Subsidiary",
+            "Headquarters_Location": "Yokneam, Israel",
+            "Primary_Business_Model": "High-Speed Networking (InfiniBand, Ethernet)",
+            "Notes": "Acquired by Nvidia in 2020"
+        },
+        {
+            "name": "Schneider Electric",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Rueil-Malmaison, France",
+            "Primary_Business_Model": "Energy Management, Datacenter Power & Cooling",
+            "Notes": "Owns APC; partners with Nvidia on AI-ready liquid-cooled reference designs"
+        },
+        {
+            "name": "Vertiv",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Columbus, Ohio, USA",
+            "Primary_Business_Model": "Datacenter Power & Cooling Infrastructure",
+            "Notes": "Formerly Emerson Network Power; supplies UPS, busway, cooling solutions"
+        },
+        {
+            "name": "Eaton",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Dublin, Ireland",
+            "Primary_Business_Model": "Power Management, Switchgear, UPS",
+            "Notes": "Focuses on electrical distribution and backup for datacenters; acquired Tripp Lite"
+        },
+        {
+            "name": "Legrand",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "Limoges, France",
+            "Primary_Business_Model": "Electrical & Digital Infrastructure",
+            "Notes": "Owns Starline busway, Raritan & Server Tech (intelligent rack PDUs), Minkels (racks)"
+        },
+        {
+            "name": "Digital Realty",
+            "node_type": "Company",
+            "Entity_Type": "REIT",
+            "Headquarters_Location": "Austin, Texas, USA",
+            "Primary_Business_Model": "Wholesale & Colocation Datacenters",
+            "Notes": "Major global datacenter operator, often uses modular expansions"
+        },
+        {
+            "name": "Equinix",
+            "node_type": "Company",
+            "Entity_Type": "REIT",
+            "Headquarters_Location": "Redwood City, California, USA",
+            "Primary_Business_Model": "Retail & Interconnection Colocation",
+            "Notes": "Focus on network exchange points and multi-tenant datacenters"
+        },
+        {
+            "name": "Emerson Electric",
+            "node_type": "Company",
+            "Entity_Type": "Public Company",
+            "Headquarters_Location": "St. Louis, Missouri, USA",
+            "Notes": "Former parent of Emerson Network Power (spun off as Vertiv)"
+        },
+        {
+            "name": "Emerson Network Power",
+            "node_type": "Company",
+            "Entity_Type": "Former Division",
+            "Headquarters_Location": "Columbus, Ohio, USA",
+            "Notes": "Spun off from Emerson Electric and renamed Vertiv in 2016"
+        },
+        {
+            "name": "Platinum Equity",
+            "node_type": "Company",
+            "Entity_Type": "Private Equity",
+            "Headquarters_Location": "Beverly Hills, California, USA",
+            "Notes": "Acquired Emerson Network Power in 2016, rebranded it as Vertiv"
+        },
+        {
+            "name": "Liebert",
+            "node_type": "Company",
+            "Entity_Type": "Subsidiary/Brand",
+            "Notes": "Pioneer in UPS/CRAC systems; part of Vertiv (formerly Emerson Network Power)"
+        },
+        {
+            "name": "Avocent",
+            "node_type": "Company",
+            "Entity_Type": "Subsidiary/Brand",
+            "Notes": "Acquired by Emerson; known for KVM & datacenter management software; now part of Vertiv"
+        },
+        {
+            "name": "APC",
+            "node_type": "Company",
+            "Entity_Type": "Acquired Subsidiary",
+            "Headquarters_Location": "West Kingston, Rhode Island, USA",
+            "Notes": "American Power Conversion; acquired by Schneider Electric in 2007"
+        },
+        {
+            "name": "Mark Zuckerberg",
+            "node_type": "Person",
+            "Notes": "Co-founder of Facebook (Meta)"
+        },
+        {
+            "name": "Open Compute Project (OCP)",
+            "node_type": "Organization",
+            "Entity_Type": "Collaborative Initiative",
+            "Notes": "Founded by Facebook, Intel, Rackspace, etc. to share open-source hardware designs"
+        },
+        {
+            "name": "Blackwell",
+            "node_type": "Technology",
+            "Notes": "Nvidia's next-generation GPU architecture, driving higher rack power densities"
+        },
+        {
+            "name": "GB200",
+            "node_type": "Product/Service",
+            "Notes": "Nvidia Grace-Blackwell GPU family; ~130 kW per rack with direct liquid cooling"
+        },
+        {
+            "name": "Liquid Cooling",
+            "node_type": "Technology",
+            "Notes": "Direct-to-chip cold plate approach required for high-density AI servers"
+        },
+        {
+            "name": "AI Datacenter",
+            "node_type": "Concept",
+            "Notes": "Facilities optimized for AI compute; higher power densities, advanced cooling"
+        },
+        {
+            "name": "DGX GH200",
+            "node_type": "Product/Service",
+            "Notes": "Nvidia's AI server platform combining Grace CPU + Hopper GPU"
+        },
+        {
+            "name": "Grace Hopper Superchips (GH200)",
+            "node_type": "Technology",
+            "Notes": "Nvidia's hybrid CPU-GPU modules preceding the Grace-Blackwell line"
+        },
+        {
+            "name": "NVLink",
+            "node_type": "Technology",
+            "Notes": "Nvidia's high-speed GPU-to-GPU interconnect"
+        },
+        {
+            "name": "NVLink Switch",
+            "node_type": "Technology",
+            "Notes": "Nvidia's fabric switch for linking multiple GPUs in a cluster"
+        },
+        {
+            "name": "DGX SuperPOD",
+            "node_type": "Product/Service",
+            "Notes": "Reference architecture for multi-rack Nvidia GPU clusters"
+        },
+        {
+            "name": "Open Accelerator Module (OAM)",
+            "node_type": "Technology",
+            "Notes": "OCP standard for pluggable AI accelerator cards"
+        },
+        {
+            "name": "SLA",
+            "node_type": "Concept",
+            "Notes": "Service Level Agreement measured in availability (e.g., 99.9% vs 99.999%)"
+        },
+        {
+            "name": "Hyperscaler",
+            "node_type": "Concept",
+            "Notes": "Operators like Meta, Google, Microsoft, Amazon running 50–100+ MW data centers"
+        },
+        {
+            "name": "PUE",
+            "node_type": "Concept",
+            "Notes": "Power Usage Effectiveness; total facility power / IT load power"
+        },
+        {
+            "name": "Tier Classification",
+            "node_type": "Concept",
+            "Notes": "Uptime Institute Tier I–IV describing data center redundancy and reliability"
+        },
+        {
+            "name": "Generators",
+            "node_type": "Concept",
+            "Notes": "Diesel or gas gensets for backup power in datacenters; arranged in N+1 or 2N"
+        },
+        {
+            "name": "Gigawatt Clusters",
+            "node_type": "Concept",
+            "Notes": "Massive AI compute deployments approaching 1 GW or more across multiple sites"
+        },
+        {
+            "name": "N+1",
+            "node_type": "Concept",
+            "Notes": "One extra unit beyond the base (N) needed; ensures concurrent maintainability"
+        },
+        {
+            "name": "2N",
+            "node_type": "Concept",
+            "Notes": "Fully duplicated power/cooling systems; allows fault tolerance"
+        },
+        {
+            "name": "Fault Tolerance",
+            "node_type": "Concept",
+            "Notes": "Ability for data center to operate despite component failures (Tier IV requirement)"
+        },
+        {
+            "name": "Machine Learning",
+            "node_type": "Concept",
+            "Notes": "Uses GPUs and other accelerators; driving AI datacenter scale-up"
+        },
+        {
+            "name": "GPU",
+            "node_type": "Technology",
+            "Notes": "Graphics Processing Unit; essential for AI training and inference"
+        },
+        {
+            "name": "PSU",
+            "node_type": "Technology",
+            "Notes": "Power Supply Unit; converts AC to DC for servers"
+        },
+        {
+            "name": "Busway",
+            "node_type": "Technology",
+            "Notes": "Enclosed busbar trunk system for distributing power overhead to racks"
+        },
+        {
+            "name": "BBU",
+            "node_type": "Technology",
+            "Notes": "Battery Backup Unit at rack level; eliminates need for central UPS in OCP designs"
+        },
+        {
+            "name": "VRM",
+            "node_type": "Technology",
+            "Notes": "Voltage Regulator Module on server boards; steps down to CPU/GPU core voltages"
+        },
+        {
+            "name": "CRAC",
+            "node_type": "Technology",
+            "Notes": "Computer Room Air Conditioning; legacy air-cooling units in data centers"
+        },
+        {
+            "name": "PDU",
+            "node_type": "Technology",
+            "Notes": "Power Distribution Unit; distributes and monitors power to racks"
+        },
+        {
+            "name": "DCIM",
+            "node_type": "Technology",
+            "Notes": "Data Center Infrastructure Management software for power/cooling/space monitoring"
+        },
+        {
+            "name": "Static Transfer Switch (STS)",
+            "node_type": "Technology",
+            "Notes": "Electronic device allowing rapid load transfer between two AC sources"
+        },
+        {
+            "name": "DGX GB200 NVL72",
+            "node_type": "Product/Service",
+            "Notes": "Rack-scale system with 72 Blackwell GPUs drawing ~130 kW, liquid-cooled"
+        }
+    ],
+    "relationships": [
+        {
+            "start": "Mark Zuckerberg",
+            "end": "Meta",
+            "relationship_type": "Has_CoFounder",
+            "details": "Co-founded Facebook (Meta) in 2004"
+        },
+        {
+            "start": "Nvidia",
+            "end": "Blackwell",
+            "relationship_type": "Develops",
+            "details": "Next-gen GPU architecture for high-power AI workloads"
+        },
+        {
+            "start": "Nvidia",
+            "end": "GB200",
+            "relationship_type": "Develops",
+            "details": "Grace-Blackwell Superchips enabling ~130 kW per rack with liquid cooling"
+        },
+        {
+            "start": "Google",
+            "end": "Liquid Cooling",
+            "relationship_type": "Early_Adopter",
+            "details": "Adopted advanced cooling for AI hardware (TPUs) before Nvidia"
+        },
+        {
+            "start": "Nvidia",
+            "end": "Liquid Cooling",
+            "relationship_type": "Eventually_Adopted",
+            "details": "Initially slow to adopt but now mandates direct liquid cooling for new GPUs"
+        },
+        {
+            "start": "Meta",
+            "end": "Open Compute Project (OCP)",
+            "relationship_type": "Founder",
+            "details": "Meta (Facebook) open-sourced hardware designs in 2011 to launch OCP"
+        },
+        {
+            "start": "Nvidia",
+            "end": "Mellanox",
+            "relationship_type": "Acquired",
+            "details": "Nvidia acquired Mellanox in 2020 for high-speed networking"
+        },
+        {
+            "start": "Emerson Network Power",
+            "end": "Vertiv",
+            "relationship_type": "RebrandedAs",
+            "details": "Spun off from Emerson Electric and renamed Vertiv in 2016"
+        },
+        {
+            "start": "Emerson Electric",
+            "end": "Emerson Network Power",
+            "relationship_type": "FormerDivision",
+            "details": "Emerson Network Power was part of Emerson Electric before spin-off"
+        },
+        {
+            "start": "Platinum Equity",
+            "end": "Emerson Network Power",
+            "relationship_type": "Acquired",
+            "details": "Private equity firm purchase leading to Vertiv's creation"
+        },
+        {
+            "start": "Schneider Electric",
+            "end": "APC",
+            "relationship_type": "Acquired",
+            "details": "APC was acquired by Schneider Electric in 2007"
+        },
+        {
+            "start": "Nvidia",
+            "end": "DGX GH200",
+            "relationship_type": "Developed",
+            "details": "Rack-scale AI server with Grace CPU + Hopper GPU generation"
+        },
+        {
+            "start": "Nvidia",
+            "end": "DGX SuperPOD",
+            "relationship_type": "Developed",
+            "details": "Reference design for large-scale GPU clusters"
+        },
+        {
+            "start": "Nvidia",
+            "end": "NVLink Switch",
+            "relationship_type": "Developed",
+            "details": "Used for dense GPU interconnects in AI clusters"
+        },
+        {
+            "start": "Meta",
+            "end": "AI Datacenter",
+            "relationship_type": "Operates",
+            "details": "Operates massive global datacenter campuses pivoting to AI"
+        },
+        {
+            "start": "Google",
+            "end": "AI Datacenter",
+            "relationship_type": "Operates",
+            "details": "Highly dense facilities, above 40 kW/rack for AI"
+        },
+        {
+            "start": "Microsoft",
+            "end": "AI Datacenter",
+            "relationship_type": "Operates",
+            "details": "Building Azure facilities for large-scale AI clusters"
+        },
+        {
+            "start": "Amazon",
+            "end": "AI Datacenter",
+            "relationship_type": "Operates",
+            "details": "AWS runs AI/ML instances in massive cloud datacenters"
+        },
+        {
+            "start": "Vertiv",
+            "end": "Power and Cooling Solutions",
+            "relationship_type": "Provides",
+            "details": "UPS, busway, CRAC units, modular power systems"
+        },
+        {
+            "start": "Schneider Electric",
+            "end": "Power and Cooling Solutions",
+            "relationship_type": "Provides",
+            "details": "Galaxy UPS line, reference designs for AI liquid cooling, switchgear"
+        },
+        {
+            "start": "Eaton",
+            "end": "Power and Cooling Solutions",
+            "relationship_type": "Provides",
+            "details": "UPS, switchgear, battery solutions for data centers"
+        },
+        {
+            "start": "Legrand",
+            "end": "Busway",
+            "relationship_type": "Provides",
+            "details": "Starline overhead power distribution and Raritan/Server Tech PDUs"
+        },
+        {
+            "start": "Meta",
+            "end": "Blackwell",
+            "relationship_type": "Uses_Technology",
+            "details": "Redesigning data centers to accommodate new Nvidia GPUs"
+        },
+        {
+            "start": "AI Datacenter",
+            "end": "Liquid Cooling",
+            "relationship_type": "Requires",
+            "details": "High-density AI gear demands direct-to-chip water cooling"
+        },
+        {
+            "start": "Blackwell",
+            "end": "Liquid Cooling",
+            "relationship_type": "Requires",
+            "details": "Power density too high for air alone"
+        },
+        {
+            "start": "GB200",
+            "end": "Liquid Cooling",
+            "relationship_type": "Requires",
+            "details": "Up to 130 kW per rack, mandated by Nvidia"
+        },
+        {
+            "start": "Nvidia",
+            "end": "Hyperscaler",
+            "relationship_type": "Supplies",
+            "details": "Sells AI GPUs to large cloud operators"
+        },
+        {
+            "start": "Hyperscaler",
+            "end": "AI Datacenter",
+            "relationship_type": "Operates",
+            "details": "Hyperscalers run huge facilities to meet AI demand"
+        },
+        {
+            "start": "Generative AI",
+            "end": "AI Datacenter",
+            "relationship_type": "DrivesExpansion",
+            "details": "Soaring demand for model training/inference forces new builds"
+        },
+        {
+            "start": "Machine Learning",
+            "end": "GPU",
+            "relationship_type": "Uses",
+            "details": "GPUs accelerate ML training and inference"
+        },
+        {
+            "start": "Nvidia",
+            "end": "GPU",
+            "relationship_type": "Produces",
+            "details": "Market leader in AI accelerator GPUs"
+        },
+        {
+            "start": "AMD",
+            "end": "GPU",
+            "relationship_type": "Produces",
+            "details": "Competes in GPU and AI acceleration"
+        },
+        {
+            "start": "Meta",
+            "end": "Google",
+            "relationship_type": "Competitors",
+            "details": "Compete in hyperscale AI capabilities and data center design"
+        },
+        {
+            "start": "Google",
+            "end": "Microsoft",
+            "relationship_type": "Competitors",
+            "details": "Hyperscalers vying for AI and cloud dominance"
+        },
+        {
+            "start": "Microsoft",
+            "end": "Amazon",
+            "relationship_type": "Competitors",
+            "details": "Azure vs. AWS in cloud and AI markets"
+        },
+        {
+            "start": "Nvidia",
+            "end": "DGX GB200 NVL72",
+            "relationship_type": "Developed",
+            "details": "A 72-GPU system with ~130 kW per rack, fully liquid-cooled"
+        }
+    ]
+}

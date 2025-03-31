@@ -1,0 +1,335 @@
+{
+"nodes": [
+{
+"name": "Sam Altman",
+"node_type": "Person",
+"Notes": "CEO of OpenAI and former Y Combinator president"
+},
+{
+"name": "St. Louis",
+"node_type": "Location",
+"Notes": "Sam Altman's hometown"
+},
+{
+"name": "Stanford",
+"node_type": "Academic Institution",
+"Notes": "University Sam Altman attended before founding Loopt"
+},
+{
+"name": "Loopt",
+"node_type": "Company",
+"Entity_Type": "Startup",
+"Notes": "Altman's first startup (location-based social app)"
+},
+{
+"name": "Y Combinator (YC)",
+"node_type": "Company",
+"Entity_Type": "Startup Accelerator",
+"Notes": "Seed accelerator that funded Loopt and later hired Altman as president"
+},
+{
+"name": "Paul Graham (PG)",
+"node_type": "Person",
+"Notes": "YC co-founder who mentored Sam Altman"
+},
+{
+"name": "Jessica Livingston",
+"node_type": "Person",
+"Notes": "YC co-founder who also mentored Sam Altman"
+},
+{
+"name": "Elon Musk",
+"node_type": "Person",
+"Notes": "Tech entrepreneur, co-founder of OpenAI"
+},
+{
+"name": "Rosewood Hotel",
+"node_type": "Venue",
+"Notes": "Location of pivotal 2015 dinner on AI leading to OpenAI's founding"
+},
+{
+"name": "OpenAI",
+"node_type": "Company",
+"Entity_Type": "AI Research Organization",
+"Notes": "Founded in 2015 with a mission to build beneficial AGI"
+},
+{
+"name": "DeepMind",
+"node_type": "Company",
+"Entity_Type": "AI Research Lab",
+"Notes": "London-based AI lab owned by Google"
+},
+{
+"name": "Microsoft",
+"node_type": "Company",
+"Entity_Type": "Tech Corporation",
+"Notes": "Partnered with OpenAI in 2019, investing $1 billion"
+},
+{
+"name": "Kevin Scott",
+"node_type": "Person",
+"Notes": "CTO of Microsoft, co-interviewed with Altman in 2023"
+},
+{
+"name": "Reinforcement Learning (RL)",
+"node_type": "Technology",
+"Notes": "Machine learning technique used to teach AI through rewards"
+},
+{
+"name": "AGI (Artificial General Intelligence)",
+"node_type": "Concept",
+"Notes": "Human-level AI or broad, general intelligence"
+},
+{
+"name": "GPT-2",
+"node_type": "Product/Service",
+"Notes": "OpenAI's early large language model, partially withheld from open release"
+},
+{
+"name": "GPT-3",
+"node_type": "Product/Service",
+"Notes": "OpenAI's 3rd-generation language model (launched 2020)"
+},
+{
+"name": "GPT-3.5",
+"node_type": "Product/Service",
+"Notes": "Improved GPT-3 variant fine-tuned for chat use cases"
+},
+{
+"name": "GPT-4",
+"node_type": "Product/Service",
+"Notes": "More advanced OpenAI model released in 2023"
+},
+{
+"name": "ChatGPT",
+"node_type": "Product/Service",
+"Notes": "OpenAI's conversational AI chatbot launched Nov 2022"
+},
+{
+"name": "Playground",
+"node_type": "Product/Service",
+"Notes": "OpenAI's web interface for developers to interact with GPT models"
+},
+{
+"name": "RLHF (Reinforcement Learning from Human Feedback)",
+"node_type": "Technology",
+"Notes": "Method to fine-tune models with human preference data"
+},
+{
+"name": "Turing test",
+"node_type": "Concept",
+"Notes": "Examines AI's ability to appear indistinguishable from a human"
+},
+{
+"name": "Anthropic",
+"node_type": "Company",
+"Notes": "AI startup founded by ex-OpenAI employees"
+},
+{
+"name": "DALL-E",
+"node_type": "Product/Service",
+"Notes": "OpenAI's image generation model"
+},
+{
+"name": "Jasper AI",
+"node_type": "Company",
+"Notes": "Used GPT-3 for marketing copywriting services"
+},
+{
+"name": "DeepSeek",
+"node_type": "Company",
+"Entity_Type": "AI Startup",
+"Notes": "Chinese open-model competitor that released MIT-licensed AI"
+},
+{
+"name": "LLaMA",
+"node_type": "Product/Service",
+"Notes": "Meta's open-source large language model"
+},
+{
+"name": "Helion",
+"node_type": "Company",
+"Notes": "Nuclear fusion startup funded by YC"
+},
+{
+"name": "New Bing",
+"node_type": "Product/Service",
+"Notes": "Microsoft's GPT-4-powered search chatbot launched Feb 2023"
+},
+{
+"name": "xAI",
+"node_type": "Company",
+"Notes": "Elon Musk's AI venture"
+},
+{
+"name": "IBM",
+"node_type": "Company",
+"Notes": "Tech firm involved in AI regulation discussions"
+},
+{
+"name": "Dwarkesh Patel",
+"node_type": "Person",
+"Notes": "Podcaster who noted AI has yet to produce major new scientific laws"
+},
+{
+"name": "David Deutsch",
+"node_type": "Person",
+"Notes": "Physicist, author of 'The Beginning of Infinity'"
+},
+{
+"name": "The Beginning of Infinity",
+"node_type": "Publication",
+"Notes": "Book by David Deutsch discussing knowledge and creativity"
+}
+],
+"relationships": [
+{
+"start": "Sam Altman",
+"end": "Loopt",
+"relationship_type": "Founder"
+},
+{
+"start": "Loopt",
+"end": "Y Combinator (YC)",
+"relationship_type": "Funded_by"
+},
+{
+"start": "Sam Altman",
+"end": "Y Combinator (YC)",
+"relationship_type": "Former_President"
+},
+{
+"start": "Paul Graham (PG)",
+"end": "Y Combinator (YC)",
+"relationship_type": "Co_Founder"
+},
+{
+"start": "Jessica Livingston",
+"end": "Y Combinator (YC)",
+"relationship_type": "Co_Founder"
+},
+{
+"start": "Paul Graham (PG)",
+"end": "Sam Altman",
+"relationship_type": "Mentor"
+},
+{
+"start": "Jessica Livingston",
+"end": "Sam Altman",
+"relationship_type": "Mentor"
+},
+{
+"start": "Sam Altman",
+"end": "OpenAI",
+"relationship_type": "CEO"
+},
+{
+"start": "Elon Musk",
+"end": "OpenAI",
+"relationship_type": "Co_Founder"
+},
+{
+"start": "Rosewood Hotel",
+"end": "OpenAI",
+"relationship_type": "Hosted_Pivotal_Meeting",
+"details": "Pivotal 2015 AI dinner"
+},
+{
+"start": "Sam Altman",
+"end": "Stanford",
+"relationship_type": "Attended"
+},
+{
+"start": "Microsoft",
+"end": "OpenAI",
+"relationship_type": "Investor_Partner",
+"details": "Invested $1B in 2019"
+},
+{
+"start": "DeepMind",
+"end": "Google",
+"relationship_type": "Owned_by"
+},
+{
+"start": "OpenAI",
+"end": "AGI (Artificial General Intelligence)",
+"relationship_type": "Research_Goal"
+},
+{
+"start": "OpenAI",
+"end": "Reinforcement Learning (RL)",
+"relationship_type": "Uses_Technology"
+},
+{
+"start": "OpenAI",
+"end": "GPT-2",
+"relationship_type": "Developed"
+},
+{
+"start": "OpenAI",
+"end": "GPT-3",
+"relationship_type": "Developed"
+},
+{
+"start": "OpenAI",
+"end": "GPT-3.5",
+"relationship_type": "Developed"
+},
+{
+"start": "OpenAI",
+"end": "GPT-4",
+"relationship_type": "Developed"
+},
+{
+"start": "OpenAI",
+"end": "ChatGPT",
+"relationship_type": "Developed"
+},
+{
+"start": "OpenAI",
+"end": "DeepMind",
+"relationship_type": "Competitor"
+},
+{
+"start": "OpenAI",
+"end": "Anthropic",
+"relationship_type": "Competitor"
+},
+{
+"start": "OpenAI",
+"end": "DeepSeek",
+"relationship_type": "Competitor"
+},
+{
+"start": "OpenAI",
+"end": "Microsoft",
+"relationship_type": "Partnership"
+},
+{
+"start": "DALL-E",
+"end": "OpenAI",
+"relationship_type": "Developed_by"
+},
+{
+"start": "Jasper AI",
+"end": "OpenAI",
+"relationship_type": "Uses_Technology",
+"details": "Built on GPT-3"
+},
+{
+"start": "Helion",
+"end": "Y Combinator (YC)",
+"relationship_type": "Funded_by"
+},
+{
+"start": "New Bing",
+"end": "Microsoft",
+"relationship_type": "Developed_by"
+},
+{
+"start": "xAI",
+"end": "Elon Musk",
+"relationship_type": "Founded_by"
+}
+]
+} 

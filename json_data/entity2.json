@@ -1,0 +1,502 @@
+{
+"nodes": [
+{
+"name": "A100",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "Amazon",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "Aspeed",
+"node_type": "Company",
+"Entity_Type": "Unknown"
+},
+{
+"name": "Axiado",
+"node_type": "Company",
+"Entity_Type": "Unknown"
+},
+{
+"name": "B100",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "B200",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "B300",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "Blackwell",
+"node_type": "Technology",
+"Entity_Type": "GPU Architecture"
+},
+{
+"name": "BlueField",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia DPU"
+},
+{
+"name": "Chris Malachowsky",
+"node_type": "Person",
+"Entity_Type": "Unknown"
+},
+{
+"name": "ConnectX-8",
+"node_type": "Product/Service",
+"Entity_Type": "Networking Hardware"
+},
+{
+"name": "Coreweave",
+"node_type": "Company",
+"Entity_Type": "Private Company"
+},
+{
+"name": "CUDA",
+"node_type": "Technology",
+"Entity_Type": "Software Platform"
+},
+{
+"name": "Curtis Priem",
+"node_type": "Person",
+"Entity_Type": "Unknown"
+},
+{
+"name": "DGX",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia Server Platform"
+},
+{
+"name": "FII (Foxconn Industrial Internet)",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "GB200",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "GB300",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "Google",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "Grace CPU",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia CPU"
+},
+{
+"name": "H100",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "H200",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU"
+},
+{
+"name": "HBM3E",
+"node_type": "Technology",
+"Entity_Type": "High-Bandwidth Memory"
+},
+{
+"name": "Inferentia",
+"node_type": "Product/Service",
+"Entity_Type": "Amazon AI Chip"
+},
+{
+"name": "Jensen Huang",
+"node_type": "Person",
+"Entity_Type": "CEO of Nvidia",
+"Also_Known_As": "Santa Huang"
+},
+{
+"name": "LLAMA 405B",
+"node_type": "Technology",
+"Entity_Type": "Large Language Model"
+},
+{
+"name": "Mellanox",
+"node_type": "Company",
+"Entity_Type": "Acquired by Nvidia"
+},
+{
+"name": "Meta",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "Micron",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "Microsoft",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "MPWR (Monolithic Power Systems)",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "NVLink",
+"node_type": "Technology",
+"Entity_Type": "High-Speed Interconnect"
+},
+{
+"name": "NVL36",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU Cluster Topology"
+},
+{
+"name": "NVL72",
+"node_type": "Product/Service",
+"Entity_Type": "Nvidia GPU Cluster Topology"
+},
+{
+"name": "NVSwitch",
+"node_type": "Technology",
+"Entity_Type": "GPU Switch Fabric"
+},
+{
+"name": "Nvidia",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "OpenAI",
+"node_type": "Company",
+"Entity_Type": "Private Company"
+},
+{
+"name": "OpenAI O3",
+"node_type": "Technology",
+"Entity_Type": "LLM Reasoning Approach"
+},
+{
+"name": "Oracle",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "Samsung",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "SK hynix",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "SXM Puck",
+"node_type": "Technology",
+"Entity_Type": "Modular GPU Form Factor"
+},
+{
+"name": "Trainium",
+"node_type": "Product/Service",
+"Entity_Type": "Amazon AI Chip"
+},
+{
+"name": "TSMC",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "TSMC 4NP",
+"node_type": "Technology",
+"Entity_Type": "Semiconductor Process Node"
+},
+{
+"name": "VRM",
+"node_type": "Technology",
+"Entity_Type": "Voltage Regulation Module"
+},
+{
+"name": "Wistron",
+"node_type": "Company",
+"Entity_Type": "Public Company"
+},
+{
+"name": "X.AI",
+"node_type": "Company",
+"Entity_Type": "Private Company"
+}
+],
+"relationships": [
+{
+"start": "Nvidia",
+"end": "Jensen Huang",
+"relationship_type": "Has_CoFounder"
+},
+{
+"start": "Nvidia",
+"end": "Chris Malachowsky",
+"relationship_type": "Has_CoFounder"
+},
+{
+"start": "Nvidia",
+"end": "Curtis Priem",
+"relationship_type": "Has_CoFounder"
+},
+{
+"start": "Nvidia",
+"end": "Blackwell",
+"relationship_type": "Develops_Architecture"
+},
+{
+"start": "Nvidia",
+"end": "B200",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "GB200",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "B300",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "GB300",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "A100",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "H100",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "H200",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "B100",
+"relationship_type": "Develops"
+},
+{
+"start": "B200",
+"end": "Blackwell",
+"relationship_type": "Is_Based_On"
+},
+{
+"start": "GB200",
+"end": "Blackwell",
+"relationship_type": "Is_Based_On"
+},
+{
+"start": "B300",
+"end": "Blackwell",
+"relationship_type": "Is_Based_On"
+},
+{
+"start": "GB300",
+"end": "Blackwell",
+"relationship_type": "Is_Based_On"
+},
+{
+"start": "B300",
+"end": "TSMC 4NP",
+"relationship_type": "Uses_Technology"
+},
+{
+"start": "GB300",
+"end": "TSMC 4NP",
+"relationship_type": "Uses_Technology"
+},
+{
+"start": "Nvidia",
+"end": "Mellanox",
+"relationship_type": "Acquired",
+"start_date": "2020"
+},
+{
+"start": "Nvidia",
+"end": "NVLink",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "NVSwitch",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "CUDA",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "BlueField",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "Grace CPU",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "DGX",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "ConnectX-8",
+"relationship_type": "Develops"
+},
+{
+"start": "OpenAI",
+"end": "OpenAI O3",
+"relationship_type": "Develops"
+},
+{
+"start": "Meta",
+"end": "LLAMA 405B",
+"relationship_type": "Develops"
+},
+{
+"start": "Nvidia",
+"end": "TSMC",
+"relationship_type": "Foundry_Partner"
+},
+{
+"start": "Nvidia",
+"end": "Micron",
+"relationship_type": "Has_Memory_Supplier"
+},
+{
+"start": "Nvidia",
+"end": "SK hynix",
+"relationship_type": "Has_Memory_Supplier"
+},
+{
+"start": "Nvidia",
+"end": "Samsung",
+"relationship_type": "Supply_Relationship",
+"status": "Lost_for_9_months"
+},
+{
+"start": "Nvidia",
+"end": "MPWR (Monolithic Power Systems)",
+"relationship_type": "Supply_Relationship",
+"status": "Reduced_share_37_percent"
+},
+{
+"start": "Nvidia",
+"end": "Axiado",
+"relationship_type": "New_Supplier"
+},
+{
+"start": "Nvidia",
+"end": "Aspeed",
+"relationship_type": "New_Supplier"
+},
+{
+"start": "Nvidia",
+"end": "Wistron",
+"relationship_type": "Supply_Relationship",
+"status": "Losing_share"
+},
+{
+"start": "Nvidia",
+"end": "FII (Foxconn Industrial Internet)",
+"relationship_type": "Supply_Relationship",
+"status": "Gaining_share"
+},
+{
+"start": "B300",
+"end": "SXM Puck",
+"relationship_type": "Utilizes_FormFactor"
+},
+{
+"start": "GB300",
+"end": "SXM Puck",
+"relationship_type": "Utilizes_FormFactor"
+},
+{
+"start": "Amazon",
+"end": "Inferentia",
+"relationship_type": "Develops"
+},
+{
+"start": "Amazon",
+"end": "Trainium",
+"relationship_type": "Develops"
+},
+{
+"start": "Amazon",
+"end": "NVL36",
+"relationship_type": "Used_Prior"
+},
+{
+"start": "Amazon",
+"end": "NVL72",
+"relationship_type": "Adopts"
+},
+{
+"start": "Amazon",
+"end": "GB300",
+"relationship_type": "Adopts"
+},
+{
+"start": "Meta",
+"end": "GB300",
+"relationship_type": "Adopts"
+},
+{
+"start": "Google",
+"end": "GB300",
+"relationship_type": "Adopts"
+},
+{
+"start": "Microsoft",
+"end": "GB300",
+"relationship_type": "Adopts"
+},
+{
+"start": "Oracle",
+"end": "GB300",
+"relationship_type": "Adopts"
+},
+{
+"start": "X.AI",
+"end": "GB300",
+"relationship_type": "Adopts"
+},
+{
+"start": "Coreweave",
+"end": "GB300",
+"relationship_type": "Adopts"
+}
+]
+} 
